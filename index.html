@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        body{
+            background-color: #FDD11E;
+        }
+        .content{
+            display: flex;
+            font-size: 3rem;
+            justify-content: center;
+            text-align: center;
+            color: white;
+            margin-top: 5rem;
+        }
+        .footer{
+            position: absolute;
+            bottom: 0;
+            width: 100vw;
+            height: 12rem;
+            background-color: #FF555A;
+        }
+        .square{
+           background-color:#FDD11E ;
+           position: relative;
+           left: 40vw;
+           top:35vh;
+           width: 300px;
+           height: 200px;
+           transform:rotate(45deg);
+           z-index: 1;
+           translate:0 0 200px
+        }
+        .smile{
+            background-color: rgba(45, 43, 43, 0.547);
+            border-radius: 100px;
+            width: 100px;
+            height: 100px;
+            position: relative;
+            left: 48vw;
+            bottom: 18vh;
+            z-index: 1;
+        }
+        .smile_img{
+            margin-top: 8px;
+            margin-right: 5px;
+        }
+    </style>
+</head>
+<body>
+<main>
+    <div class="content">
+        Pinak Idea Lab
+    </div>
+   <div class="square">
+       <span ></span>
+
+   </div>
+   <div class="smile">
+    <span><img class="smile_img" src="smile-removebg-preview.png" alt=""></span>
+   </div>
+   
+</main>
+<div class="footer"></div>
+</body>
+</html>
